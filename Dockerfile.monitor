@@ -1,0 +1,18 @@
+# 現在のNode.js LTSバージョン（例: 20）と、安定版OS（Jammy）を使用
+FROM mcr.microsoft.com/playwright/node:20
+
+# 開発環境のセットアップ
+WORKDIR /app
+
+# package.jsonとpackage-lock.jsonをコピー
+COPY package-json.json package.json
+
+# 依存関係をインストール
+RUN npm install
+
+# アプリケーションファイルをコピー
+COPY 2st-monitor-js.js 2st-monitor.js
+COPY config-json.json config.json
+
+# エントリーポイントを設定 (package.jsonのstartスクリプトを使用)
+CMD ["npm", "start"]

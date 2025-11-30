@@ -1,0 +1,37 @@
+{
+  "name": "2ndstreet-monitor",
+  "version": "2.0.0",
+  "description": "2ndstreet監視システム - VPS対応Bot対策強化版",
+  "main": "2st-monitor.js",
+  "scripts": {
+    "start": "node 2st-monitor.js",
+    "dev": "nodemon 2st-monitor.js",
+    "install-deps": "npm install",
+    "docker:build": "docker build -t 2st-monitor .",
+    "docker:run": "docker-compose up -d",
+    "docker:stop": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
+  },
+  "keywords": [
+    "scraping",
+    "playwright",
+    "stealth",
+    "bot-detection",
+    "vps"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "playwright": "^1.40.1",
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
