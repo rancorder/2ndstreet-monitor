@@ -257,8 +257,6 @@ sudo yum install -y \
 
 ## 📈 監視例（ログ出力）
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c0a6d866-c125-4762-9735-327da82e9ff2" />
-
 ```
 ============================================================
 🚀 2ndstreet VPS完全対応版監視システム起動
