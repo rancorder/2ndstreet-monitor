@@ -1,9 +1,9 @@
 {
   "chatwork": {
-    "token": "987cf44efbf5529a09b1317a85058640",
+    "token": "your taken",
     "rooms": {
-      "camera": "385402385",
-      "watch": "408715054"
+      "camera": "your room ID",
+      "watch": "your room ID"
     }
   },
   "proxy": {
@@ -50,14 +50,14 @@
       "url": "https://www.2ndstreet.jp/search?category=121001&sortBy=arrival",
       "displayName": "セカンドストリート",
       "category": "カメラ",
-      "roomId": "385402385",
+      "roomId": "your room ID",
       "urlIndex": 0
     },
     {
       "url": "https://www.2ndstreet.jp/search?category=931010&sortBy=arrival",
       "displayName": "セカンドストリート",
       "category": "時計",
-      "roomId": "408715054",
+      "roomId": "your room ID",
       "urlIndex": 1
     }
   ]
